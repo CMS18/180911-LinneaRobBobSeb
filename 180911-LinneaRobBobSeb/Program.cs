@@ -19,8 +19,8 @@ namespace _180911_LinneaRobBobSeb
             Console.Write("Vad är din favorithobby?");
             string hobby = Console.ReadLine();
 
-            LinneaClass.Linnea(shoesName);
             SebastiansClass.SebastiansSaga();
+            LinneaClass.Linnea(shoesName);
             RobertsClass.RobertsSaga(favoritecolor);
             Console.WriteLine("\nDet var en gång..");
         }
