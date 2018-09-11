@@ -12,8 +12,11 @@ namespace _180911_LinneaRobBobSeb
         {
             string karaktär = Console.ReadLine();
             Console.WriteLine("\n\tDet var en gång en {0}", karaktär);
+            Console.Write("Hans favoritfärg var: ");
+            string favoritecolor = Console.ReadLine();
+            Console.WriteLine();
             SebastiansClass.SebastiansSaga();
-            RobertsClass
+            RobertsClass.RobertsSaga(favoritecolor);
         }
     }
 }
