@@ -16,13 +16,15 @@ namespace _180911_LinneaRobBobSeb
             string favoritecolor = Console.ReadLine();
             Console.WriteLine("Hans skor fick namnet?");
             string shoesName = Console.ReadLine();
-            Console.Write("Vad är din favorithobby?");
+            Console.WriteLine("Vad var hans favorithobby?");
             string hobby = Console.ReadLine();
-
-            SebastiansClass.SebastiansSaga();
-            LinneaClass.Linnea(shoesName);
-            RobertsClass.RobertsSaga(favoritecolor);
             Console.WriteLine("\nDet var en gång..");
+
+            Console.Write("\nDet var en gång ");
+            SebastiansClass.SebastiansSaga(karaktär);
+            RobertsClass.RobertsSaga1(favoritecolor);
+            LinneaClass.Linnea(shoesName);
+            RobertsClass.RobertsSaga2(hobby);
         }
 
         public void Story()

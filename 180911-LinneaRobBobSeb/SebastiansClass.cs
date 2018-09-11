@@ -8,9 +8,9 @@ namespace _180911_LinneaRobBobSeb
 {
     class SebastiansClass
     {
-        public static void SebastiansSaga()
+        public static void SebastiansSaga(string x)
         {
-            Console.Write(" som var en bedräglig alkolist och ");
+            Console.Write("en {0} som var en bedräglig alkolist och ", x);
         }
     }
 }
