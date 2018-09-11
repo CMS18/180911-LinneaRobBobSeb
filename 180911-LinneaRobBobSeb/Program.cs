@@ -10,6 +10,7 @@ namespace _180911_LinneaRobBobSeb
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n\tDet var en gång en");
         }
     }
 }
