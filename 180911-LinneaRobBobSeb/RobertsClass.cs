@@ -8,12 +8,15 @@ namespace _180911_LinneaRobBobSeb
 {
     class RobertsClass
     {
-        public static void RobertsSaga(string color)
+        public static void RobertsSaga1(string color)
         {
-            Console.Write("den var fantastiskt rund. Han ägde en {0} hund", color);
-            Console.WriteLine();
+            Console.Write("hade fruktansvärda problem på grund av gluten. Han ägde en {0} hund", color);
             Console.Write("som hade ");
-            Console.Write("");
+        }
+
+        public static void RobertsSaga2(string aktivitet)
+        {
+            Console.Write(" och ")
         }
     }
 }
