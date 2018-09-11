@@ -14,7 +14,7 @@ namespace _180911_LinneaRobBobSeb
             string karaktär = Console.ReadLine();
             Console.WriteLine("Hans favoritfärg var: ");
             string favoritecolor = Console.ReadLine();
-            Console.WriteLine("Hans skor fick namnet?");
+            Console.WriteLine("Vilket språk talade han?");
             string shoesName = Console.ReadLine();
             Console.WriteLine("Vad var hans favorithobby?");
             string hobby = Console.ReadLine();
