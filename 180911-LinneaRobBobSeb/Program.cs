@@ -23,7 +23,7 @@ namespace _180911_LinneaRobBobSeb
             SebastiansClass.SebastiansSaga();
             RobertsClass.RobertsSaga(favoritecolor);
 
-            Console.Write("")
+            //Console.Write("")
 
             //Console.WriteLine("\nDet var en gång..");
         }
