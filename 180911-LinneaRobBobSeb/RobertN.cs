@@ -8,9 +8,9 @@ namespace _180911_LinneaRobBobSeb
 {
     class RobertN
     {
-        public static void Robert(string story)
+        public void RobertN1(int x, string objekt)
         {
-            story = "en segelbåt. Han spenderade varje dag på sin båt ute till havs men det var då...";
+            Console.Write(" När han var yngre hade han {0} kr på banken, och lika många {1}, det var bättre tider det, muttrade han till sig själv");
         }
     }
 }
