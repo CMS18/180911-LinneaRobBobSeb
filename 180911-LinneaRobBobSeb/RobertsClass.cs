@@ -13,6 +13,7 @@ namespace _180911_LinneaRobBobSeb
             Console.Write("den var fantastiskt rund. Han ägde en {0} hund", color);
             Console.WriteLine();
             Console.Write("som hade ");
+            Console.Write("");
         }
     }
 }
