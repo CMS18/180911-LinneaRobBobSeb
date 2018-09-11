@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _180911_LinneaRobBobSeb
 {
-    class RobertsClass
+    class RobertN
     {
-        public void RobertsSaga()
+        public static void Robert(string story)
         {
-            Console.Write("");
+            story = "en segelbåt. Han spenderade varje dag på sin båt ute till havs men det var då...";
         }
     }
 }
