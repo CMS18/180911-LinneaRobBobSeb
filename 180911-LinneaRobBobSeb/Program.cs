@@ -10,22 +10,22 @@ namespace _180911_LinneaRobBobSeb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Skriv in en karaktär att använda ");
+            Console.WriteLine("Skriv in en karaktär att använda");
             string karaktär = Console.ReadLine();
-            Console.WriteLine("Vilken färg är han?");
-            string charColor = Console.ReadLine();
+            Console.Write("\n\tDet var en gång en {0}", karaktär);
             Console.Write("Hans favoritfärg var: ");
             string favoritecolor = Console.ReadLine();
-            Console.Write("\nVad heter du?");
-            string namn = Console.ReadLine();
+            Console.WriteLine();
+            Console.Write("Hans skor fick namnet?");
+            string shoesName = Console.ReadLine();
+            LinneaClass.Linnea(shoesName);
 
-            Console.Write("\nDet var en gång en {0} {1}", charColor, karaktär);
             SebastiansClass.SebastiansSaga();
             RobertsClass.RobertsSaga(favoritecolor);
+            Console.WriteLine("\n\tDet var en gång..");
+            
 
-            //Console.Write("")
-
-            //Console.WriteLine("\nDet var en gång..");
         }
+        
     }
 }
