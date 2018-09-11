@@ -16,7 +16,7 @@ namespace _180911_LinneaRobBobSeb
 
         public static void RobertsSaga2(string aktivitet)
         {
-            Console.Write(" och han brukade utöva {0} på daglig basis.");
+            Console.Write(" och han brukade utöva {0} på daglig basis.", aktivitet);
             Console.Write(" Det var bara då han kände sig vid liv; ");
         }
     }
