@@ -27,9 +27,10 @@ namespace _180911_LinneaRobBobSeb
             //Console.WriteLine("\nDet var en gång..");
         }
 
-        public void Story()
-        {
-            
+            Console.Write("")
+
+            Console.WriteLine("\n\tDet var en gång..");
+            RobertN.Robert(story);
         }
     }
 }

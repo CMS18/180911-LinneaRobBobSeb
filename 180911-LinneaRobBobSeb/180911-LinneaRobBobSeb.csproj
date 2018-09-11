@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RobertN.cs" />
     <Compile Include="SebastiansClass.cs" />
     <Compile Include="RobertsClass.cs" />
   </ItemGroup>
