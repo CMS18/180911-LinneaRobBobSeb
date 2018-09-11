@@ -10,7 +10,9 @@ namespace _180911_LinneaRobBobSeb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n\tDet var en gång en");
+            string karaktär = Console.ReadLine();
+            Console.WriteLine("\n\tDet var en gång en {0}", karaktär);
+            SebastiansClass.SebastiansSaga();
         }
     }
 }
