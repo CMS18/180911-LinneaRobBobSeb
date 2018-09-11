@@ -18,7 +18,7 @@ namespace _180911_LinneaRobBobSeb
             string shoesName = Console.ReadLine();
             Console.WriteLine("Vad var hans favorithobby?");
             string hobby = Console.ReadLine();
-            Console.WriteLine("\nDet var en gång..");
+            //Console.WriteLine("\nDet var en gång..");
 
             Console.Write("\nDet var en gång ");
             SebastiansClass.SebastiansSaga(karaktär);
