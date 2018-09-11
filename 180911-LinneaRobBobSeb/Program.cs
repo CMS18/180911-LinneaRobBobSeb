@@ -21,7 +21,7 @@ namespace _180911_LinneaRobBobSeb
 
             Console.Write("\nDet var en gång ");
             SebastiansClass.SebastiansSaga(karaktär);
-            RobertsClass.RobertsSaga(favoritecolor);
+            RobertsClass.RobertsSaga1(favoritecolor);
             LinneaClass.Linnea(shoesName);
         }
 
