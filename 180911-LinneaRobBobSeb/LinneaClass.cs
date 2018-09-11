@@ -8,10 +8,10 @@ namespace _180911_LinneaRobBobSeb
 {
     class LinneaClass
     {
-        public static void Linnea()
+        public static void Linnea(string shoesName)
         {
             //men det var då
-            Console.Write("som Harry Potter kom in och började skrika..");
+            Console.Write("som Harry Potter kom in och började skrika på {0}..", shoesName);
         }
     }
 }
