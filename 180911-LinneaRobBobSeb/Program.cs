@@ -17,12 +17,8 @@ namespace _180911_LinneaRobBobSeb
             Console.Write("Vad brukade han göra på fritiden?");
             string aktivitet = Console.ReadLine();
             Console.Write("Det var en gång en {0}", karaktär);
-            SebastiansClass.SebastiansSaga();
-            RobertsClass.RobertsSaga1(favoritecolor);
             Console.Write("\nVad heter du?");
             string namn = Console.ReadLine();
-
-            Console.WriteLine("\nDet var en gång..");
         }
     }
 }
