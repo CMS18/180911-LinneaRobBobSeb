@@ -11,7 +11,7 @@ namespace _180911_LinneaRobBobSeb
         public static void RobertsSaga1(string color)
         {
             Console.Write("han hade fruktansvärda problem på grund av gluten. Han ägde en {0} hund", color);
-            Console.Write(" som hade ");
+            Console.Write(" som hade likadan svans ");
         }
 
         public static void RobertsSaga2(string aktivitet)
