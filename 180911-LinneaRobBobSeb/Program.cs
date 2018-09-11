@@ -20,10 +20,8 @@ namespace _180911_LinneaRobBobSeb
             Console.Write("\nVad heter du?");
             string namn = Console.ReadLine();
 
-            Console.Write("")
 
-            Console.WriteLine("\n\tDet var en gång..");
-            RobertN.Robert(story);
+            Console.WriteLine("\nDet var en gång..");
         }
     }
 }
