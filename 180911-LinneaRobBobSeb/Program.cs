@@ -11,6 +11,12 @@ namespace _180911_LinneaRobBobSeb
         static void Main(string[] args)
         {
             Console.WriteLine("\n\tDet var en gång..");
+            Console.Write("Vilken färg har du på dina skor?");
+            string colourShoes = "";
+
+            LinneaClass.Linnea();
         }
+        
     }
+
 }
