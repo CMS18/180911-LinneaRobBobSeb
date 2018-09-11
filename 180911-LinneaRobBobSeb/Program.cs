@@ -10,6 +10,14 @@ namespace _180911_LinneaRobBobSeb
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Skriv in en karaktär att använda");
+            string karaktär = Console.ReadLine();
+            Console.Write("\n\tDet var en gång en {0}", karaktär);
+            Console.Write("Hans favoritfärg var: ");
+            string favoritecolor = Console.ReadLine();
+            Console.WriteLine();
+            SebastiansClass.SebastiansSaga();
+            RobertsClass.RobertsSaga(favoritecolor);
             Console.Write("\nVad heter du?");
             string namn = Console.ReadLine();
 
