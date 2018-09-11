@@ -14,7 +14,6 @@ namespace _180911_LinneaRobBobSeb
             string karaktär = Console.ReadLine();
             Console.Write("\n\tDet var en gång en {0}", karaktär);
             SebastiansClass.SebastiansSaga();
-            RobertsClass
         }
     }
 }
